@@ -1,9 +1,8 @@
 import React from "react";
-import Pizza from "./Component/Pizza";
 import Footer from "./Component/Footer";
 import Header from "./Component/Header";
-import Manu from "./Component/Manu";
-
+import Menu from "./Component/Menu";
+import "./index.css"
 const pizzaData = [
   {
     name: "Focaccia",
@@ -51,9 +50,9 @@ const pizzaData = [
 
 function App() {
   return (
-    <div>
+    <div className="container flex flex-col items-center">
       <Header />
-      <Manu />
+      <Menu />
       <Footer />
     </div>
   );
