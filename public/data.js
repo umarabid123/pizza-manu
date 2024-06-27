@@ -1,9 +1,3 @@
-import React from "react";
-import Pizza from "./Component/Pizza";
-import Footer from "./Component/Footer";
-import Header from "./Component/Header";
-import Manu from "./Component/Manu";
-
 const pizzaData = [
   {
     name: "Focaccia",
@@ -48,15 +42,3 @@ const pizzaData = [
     soldOut: false,
   },
 ];
-
-function App() {
-  return (
-    <div>
-      <Header />
-      <Manu />
-      <Footer />
-    </div>
-  );
-}
-
-export default App;
