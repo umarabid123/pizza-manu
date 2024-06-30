@@ -3,7 +3,7 @@ import Footer from "./Component/Footer";
 import Header from "./Component/Header";
 import Menu from "./Component/Menu";
 import "./index.css"
-const PizzaData = [
+const pizzaData = [
   {
     name: "Focaccia",
     ingredients: "Bread with italian olive oil and rosemary",
